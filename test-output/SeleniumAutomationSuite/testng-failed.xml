@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumAutomationSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AutomationTests(failed)">
+    <classes>
+      <class name="testcases.FormTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="launchBrowser"/>
+          <include name="testFormSubmission"/>
+        </methods>
+      </class> <!-- testcases.FormTest -->
+    </classes>
+  </test> <!-- AutomationTests(failed) -->
+</suite> <!-- Failed suite [SeleniumAutomationSuite] -->
